@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <title>event-update-page</title>
+    <!-- commenting this, bootstrap will handle the responsiveness
+    <style>
+        @media only screen and (max-width: 480px) {
+            .resp-img{
+                margin-bottom: 1rem;
+            }
+        }
+    </style> -->
+</head>
+<body>
+    <div class="container">
+        <!--Hearder Section >> contains the page header and sub header-->
+        <div class="m-4">
+            <h1 class="display-1 text-center">Event 1</h1>
+            <p class="display-6 text-center fs-5 ">Number Of Seats Available : <span class="fw-bold">23</span></p>
+        </div>
+
+        <!--Content Section >> contains 2 cols one for image and the other for the form-->
+        <div class="row border w-75 p-4 mx-auto"> 
+            <!--Col 1 >> Display rounded image inside a box with border-->
+            <div class="col  d-flex justify-content-center align-items-center w-50">
+                <div class="p-4 border">
+                    <img src="https://picsum.photos/300/300" class="img-fluid rounded-circle" alt="...">
+                </div>
+            </div>
+            <!--Col 2 >> Display Form elements + buttons-->
+            <div class="col d-flex flex-column justify-content-center align-items-center">
+                <div class="input-group input-group-sm mb-3">
+                    <span class="input-group-text" id="inputGroup-sizing-sm">Name</span>
+                    <input type="text" class="form-control" aria-label="Name" aria-describedby="input name">
+                </div>
+                <div class="input-group input-group-sm mb-3">
+                    <span class="input-group-text" id="inputGroup-sizing-sm">Email</span>
+                    <input type="email" class="form-control" aria-label="email" aria-describedby="input email">
+                </div>
+                <div class="input-group input-group-sm mb-3">
+                    <span class="input-group-text" id="inputGroup-sizing-sm">Phone No</span>
+                    <input type="number" class="form-control" aria-label="phone number" aria-describedby="input phone number">
+                </div>
+                <div class="input-group input-group-sm mb-3">
+                    <span class="input-group-text" id="inputGroup-sizing-sm">Number Of Seats</span>
+                    <select class="form-select" aria-label="number of seats" id="numberOfSeats">
+                        <option selected>Select number of seats</option>
+                        <option value="1">One</option>
+                        <option value="2">Two</option>
+                        <option value="3">Three</option>
+                      </select>
+                </div>
+                <div class="input-group input-group-sm mb-3">
+                    <span class="input-group-text" id="inputGroup-sizing-sm">Number Of Attendee 2</span>
+                    <input type="number" class="form-control" aria-label="number of attendee" aria-describedby="input number of attendee">
+                </div>
+
+                <div class="d-flex justify-content-around w-50 mt-3">
+                    <button type="button" class="btn btn-success">Submit</button>
+                    <button type="button" class="btn btn-danger" style="margin-left: 10px;">Cancel</button>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <!--this is the bootsrap js bundle script-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+</body>
+</html>
