@@ -1,0 +1,80 @@
+@import url('http://fonts.cdnfonts.com/css/led-calculator');
+/*the calculator font loads too slow*/
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.calc-display{
+    height:3.3rem;
+    font-family: 'LED Calculator', sans-serif;
+}
+
+.keys{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all .07s ease;
+}
+
+.keys:hover{
+
+    border-color: grey;
+
+    cursor: pointer;
+}
+.pressed{
+    
+        transform: scale(0.9);
+        border-color: grey;
+        box-shadow: 0 0 1rem grey;
+      
+}
+.keys-special{
+    background-color: #f5f5f5;
+}
+
+.key-equal{
+    background-color: lightskyblue;
+}
+.key-equal:hover{
+    background-color: rgb(29, 197, 253);
+}
+
+@media only screen and (min-width:1280px) {
+    .main-cont{
+        width:25%;
+    }
+    
+}
+@media only screen and (min-width:540px) and (max-width:1024px){
+    .main-cont{
+        width:50%;
+    }
+    
+}
+
+.main-cont{
+position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+/* Chrome, Safari, Edge, Opera */
+/*
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox 
+input[type=number] {
+  -moz-appearance: textfield;
+}
+*/
+
+
