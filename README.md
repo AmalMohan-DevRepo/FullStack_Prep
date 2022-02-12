@@ -12,7 +12,7 @@
       live : https://laud-page-demo.netlify.app/
          
 # TASK #2 DOM-manipulation
- ### Dynamic UI by manipulationg DOM
+ ### Dynamic UI by manipulating DOM
  * **calculator** <br/>
       repo : ./DOM-Manipulation/calculator <br/>
       live : https://calculator-demo-bs.netlify.app/
