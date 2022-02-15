@@ -1,5 +1,5 @@
-# GUVI_prebootcamp
-### This is the task submission Repo
+# FullStack_Prep
+### This is my Full Stack Dev prepration Repo
 
 # TASK #1 HTML-CSS-BOOTSTRAP
  ### No functionalities included basic layout/ Grids 
