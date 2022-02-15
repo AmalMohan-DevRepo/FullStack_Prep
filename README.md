@@ -1,4 +1,4 @@
-# FullStack_Prep
+# FullStack_Prep 
 ### This is my Full Stack Dev prepration Repo
 
 # TASK #1 HTML-CSS-BOOTSTRAP
@@ -20,4 +20,16 @@
  * **html-forms** <br/>
       repo : ./DOM-Manipulation/html-forms <br/>
       live : https://html-forms-demo.netlify.app/
+      
+# TASK #3 Call-back,Promise,Async and Await
+ ### API calls using fetch are the main focus - using free TP open APIs
+ * **calculator** <br/>
+      repo : ./Call-back,Promise,Async and Await/random-facts/ <br/>
+      live : 
+ 
+ * **html-forms** <br/>
+      repo : ./Call-back,Promise,Async and Await/weather-forecast/ <br/>
+      live : 
+
+      
 
