@@ -1,0 +1,147 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+#button-search:focus,#search-text:focus {
+    outline: none;
+    box-shadow: none;
+    }
+
+#button-search{
+    transition: 0.2s all;
+}
+
+#button-search:active {
+    transform: scale(0.98);
+    box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.24);
+    
+}
+
+
+.city-temp-disp{
+    border-radius: 25px;
+    
+}
+
+.highlight-card{
+    border-radius: 15px;
+}
+
+.nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover {
+    border: 0;
+    }
+
+
+@media only screen and (max-width:720px) {
+
+    .search-bar{
+        width: 75%;
+    }
+
+    .city-temp-disp{
+        width:100%;
+
+    }
+
+    .weather-icon{
+        width:150%;
+        height:150%;
+    }
+    .highlight-box{
+        margin-bottom: 3%;
+    }
+
+}
+
+
+
+@media only screen and (max-width:540px) {
+ .highlight-card{
+     margin-top: 3%;
+ }
+
+ .weather-main-desc{
+     font-size: small;
+ }
+
+ #main-temp-disp{
+    font-size: 50px;
+    margin-left: 1.2rem;
+}
+}
+
+@media only screen and (min-width:720px) {
+
+    .search-bar{
+        width: 25%;
+    }
+
+    .city-temp-disp{
+        width:75%
+    }
+
+    .city-name,.weather-desc,.day-time{
+        font-size: x-large;
+    }
+
+
+    .chart-box{
+        width: 75%;
+        height: 60%;
+    }
+
+    .highlight-box{
+        margin-bottom: 4%;
+        width:75%;
+    }
+
+    .main-disp{
+        height: 89vh;
+    }
+    #main-temp-disp{
+        font-size: 72px}
+    
+} 
+/*<canvas id="chart-card"></canvas>*/
+
+@media only screen and (min-width:1000px) and (max-width:1200px) {
+    .main-cont{
+        margin-top: 5%;
+        margin-bottom: 0%;
+    }
+
+    .highlight-box{
+        padding-bottom: 0;
+    }
+
+    .main-disp{
+        height: auto;
+    }
+
+    .sun-box{
+        font-size: large;
+    }
+}
+
+@media only screen and (min-width:1280px){
+    .city-name,.weather-desc,.day-time{
+        font-size: xx-large;
+    }
+#main-temp-disp{
+    font-size: 72px}
+
+    .chart-box{
+        height: 50%;
+    }
+.toggle-nav{
+    height: 5%;
+}
+
+#nav-tabContent{
+    height: 88%;
+}
+    
+}
