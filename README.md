@@ -23,13 +23,13 @@
       
 # TASK #3 Call-back,Promise,Async and Await
  ### API calls using fetch are the main focus - using free TP open APIs
- * **calculator** <br/>
+ * **random-facts** <br/>
       repo : ./Call-back,Promise,Async and Await/random-facts/ <br/>
-      live : 
+      live : https://random-facts-demo.netlify.app/
  
- * **html-forms** <br/>
+ * **weather-forecast** <br/>
       repo : ./Call-back,Promise,Async and Await/weather-forecast/ <br/>
-      live : 
+      live : https://weather-forecast-demo.netlify.app/
 
       
 
